@@ -1,0 +1,47 @@
+@-moz-document url-prefix() {
+  html {
+    height: 100%;
+  }
+}
+
+@font-face {
+  font-family: 'terminal-grotesque-open';
+  src: url("./components/font/terminal_grotesque/terminal-grotesque_open.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'terminal-grotesque';
+  src: url("./components/font/terminal_grotesque/terminal-grotesque.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'RuneScape Quill';
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  src: url('./components/font/runescapes/runescape/otf/RuneScape-Quill.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ThunderLight';
+  src: url('./components/font/Fonts/Web-PS/Thunder-LightLC.woff2') format('woff2'),
+    /* Modern Browsers */
+    url('./components/font/Fonts/Web-PS/Thunder-LightLC.otf') format('opentype');
+  /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+  min-height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
