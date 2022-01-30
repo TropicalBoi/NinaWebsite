@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "../Landing/logo.svg";
 import profilePic from "./ProfilePic.png";
 import Aboutvideo from "./WebTewAboutLanding.mp4";
 import { css, injectGlobal, keyframes } from "@emotion/css";
@@ -152,14 +151,7 @@ const About = () => {
           >
             for quick chat @t.ropicalboi
           </p>
-          <img
-            src={logo}
-            className={css`
-              height: 100vmin;
-              width: 100%;
-            `}
-            alt="logo"
-          />
+
           <ReactPlayer
             className={css`
               position: absolute;

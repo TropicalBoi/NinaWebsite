@@ -23,6 +23,14 @@
 }
 
 @font-face {
+  font-family: 'RuneScape-Quill-Caps';
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  src: url('./components/font/runescapes/runescape/otf/RuneScape-Quill-Caps.otf') format('opentype');
+}
+
+@font-face {
   font-family: 'ThunderLight';
   src: url('./components/font/Fonts/Web-PS/Thunder-LightLC.woff2') format('woff2'),
     /* Modern Browsers */
@@ -44,4 +52,12 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
 }
